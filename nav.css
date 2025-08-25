@@ -1,0 +1,31 @@
+.logo
+{
+    width: 8vw;
+    height: 3vw;         
+} 
+.search-bar
+{
+    margin-left: 2vw;
+}     
+.Sign-In-button,.Sign-In-button:hover
+{
+    background-color: black;   
+    color: white ;    
+    text-decoration: none;
+    font-weight: bold; 
+    margin-left: 2vw;
+    
+}
+.register-button,.register-button:hover
+{
+    margin-left: 1.2vw;
+    background-color: black;
+    color: white;
+    border-radius: 1.5vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+}
+.register-button:hover
+{
+    box-shadow: 0.1vw 0.1vw 0.1vw black;
+}

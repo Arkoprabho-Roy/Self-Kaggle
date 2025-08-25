@@ -1,0 +1,38 @@
+.about-div
+       {
+           padding-left: 5.4vw;                
+       }
+       .about 
+       {
+           width: 46vw;       
+       }       
+       .about h1
+       {
+        font-size: 4vw;
+       }
+       .about p
+       {
+        width: 45vw;        
+        font-size: 1.7vw;
+        color: #5F6368;
+       }       
+       .btn1
+       {
+          border-radius: 1.8vw !important;
+          padding-left: 2.8vw ;
+          padding-right: 2.8vw ;
+          padding-top: 1vw ;
+          padding-bottom: 1vw ;
+          font-size: 1.2vw;
+          background-color: black;
+          color: white;
+          text-decoration: none;
+       } 
+       .btn1:hover
+       {
+          color: white;
+       }
+       .image
+       {
+         width: 45vw;         
+       }  

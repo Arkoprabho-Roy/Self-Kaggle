@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Roboto linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap"    rel="stylesheet">
+    <!-- font-awesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS Link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- main website css -->
+      <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            font-family: "Roboto", sans-serif;
+            padding-bottom: 1vw;            
+        }                   
+      </style>
+      
+      <!-- nav-bar css -->
+       <link rel="stylesheet" href="nav.css">
+       <!-- css for First section after marquee -->
+       <link rel="stylesheet" href="about.css">
+       <!-- css for Second section after marquee -->
+        <link rel="stylesheet" href="info.css">
+        <!-- css for Who are Kagglers section -->
+         <link rel="stylesheet" href="who-Kaggler-style.css">
+         <!-- Linking datasets.css -->
+          <link rel="stylesheet" href="datasets.css">
+          <!-- Linking customer.css -->
+           <link rel="stylesheet" href="customer.css">
+    <title>Kaggle : Your Machine Learning and Data Science Community</title>
+    <!-- <script>
+            document.addEventListener('contextmenu', 
+            event => event.preventDefault())            
+            ,document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.shiftKey && event.key === 'L') {
+            event.preventDefault();            
+            }
+            })
+            ,document.addEventListener("keydown", function (event){
+            if (event.ctrlKey){
+            event.preventDefault();            
+           }
+           if(event.keyCode == 123){
+            event.preventDefault();
+           }    
+          })
+    </script>   -->
+</head>
+<body>
+     <div class="main-div">    <!-- div that contains the whole website --> 
+        <!-- Logo  -->
+        <div style="display: inline-block;"><img src="site-logo.svg" class="logo mx-4 mt-2 mb-2" style="max-width: 100%; height: auto;"></div>
+       <!-- Nav-Bar -->  
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: inline-block;">
+     <div class="container-fluid">    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">        
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-1" href="">Datasets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Discussions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Blog</a>
+        </li>                      
+      </ul>              
+    </div>  <!-- End of collapse navbar-collapse div-->
+  </div>  <!-- End of container-fluid div-->
+</nav>
+
+<!-- Search Bar -->
+<input type="search" placeholder="Search" class="search-bar">    
+<!-- Buttons -->
+<a href="Sign-In.html" class="btn Sign-In-button">Sign In</a>
+<a href="register.html" class="btn btn-dark register-button ">Register</a>
+
+ <!-- About-div + Image -->
+ <div class="about-div">  
+    <div class="about pt-5" style="display: inline-block;">
+        <h1 class="mt-5">
+            Level up with the largest AI & ML community
+        </h1>
+        <div style="line-height: 2.5vw;">
+        <p style="font-size: 1.9vw;">
+            Join over 24M+ machine learners to share, stress test, and stay up-to-date on all the latest ML techniques and technologies. Discover a huge repository of community-published models, data & code for your next project.
+        </p>
+        </div>
+         <a href="" class="btn1">Register with Google</a>
+         <a href="" class="btn1">Register with Email</a>              
+    </div>
+    <div class="image pt-5 mt-5" style="display: inline-block; vertical-align: top;">
+        <img src="Images/Adobe Express - file.png" style="max-width: 100%; height: auto;" >
+    </div>   
+  </div>    <!-- End of about-div-->
+
+
+   <div class="about-div1">
+      <h2 class="mx-5 mt-5 mb-5">
+          Who's on Kaggle?
+      </h2>
+      <div class="info-div">
+        <div class="info1">
+           <div style="line-height: 1.9vw; padding-left: 4vw;">
+              <p style="margin-bottom: 0;" class="edit">Learners</p>
+              <p style="font-size: 1.3vw;">Dive into Kaggle courses, competitions & forums.</p>
+           </div>
+           <div>
+            <img src="Images/learners-illo_light.svg" style="max-width: 100%; height: auto;">
+           </div>           
+        </div>  <!--end of info1-->
+        <div class="info2">
+            <div style="line-height: 1.9vw; padding-left: 4vw;">
+               <p style="margin-bottom: 0;" class="edit">Developers</p>
+               <p style="font-size: 1.3vw;">Leverage Kaggle's models, notebooks & datasets.</p>
+            </div>
+            <div>
+            <img src="Images/developers-illo_light.svg" style="max-width: 100%; height: auto;">
+           </div>
+        </div>  <!--end of info2-->
+        <div class="info3">
+            <div style="line-height: 1.9vw; padding-left: 4vw;">
+                <p style="margin-bottom: 0;" class="edit">Researchers</p>
+                <p style="font-size: 1.3vw;">Advance ML with our pre-trained model hub & competitions.</p>
+            </div>
+            <div>
+            <img src="Images/researchers-illo_light.svg" style="max-width: 100%; height: auto;">
+           </div>
+        </div>  <!--end of info3-->
+      </div> <!--end of info-div-->
+
+      
+   </div>
+    
+   <div class="datasets">
+    <div class="text">
+        <h1 class="title">
+        Tackle your next project with Kaggle
+       </h1>
+       <p style="color: #5F6368; font-size: 1.8vw;">
+        On Kaggle you'll find all the resources and knowledge needed for your next real-world ML project.
+       </p>
+       <div style="text-align: center;">
+         <h3 style="color: #5F6368; margin-top: 3vw; font-size: 2.6vw;">498K Datasets</h3>
+         <h3 style="color: #5F6368; font-size: 2.6vw;">1.4M Notebooks</h3>
+         <h3 style="color: #5F6368; font-size: 2.6vw;">23,400 Models</h3>
+         <h2 style="margin-top: 3vw; font-weight: bold; font-size: 3vw;">A global community</h2>
+         <p style="color: #5F6368; font-size: 1.9vw;">
+        Over 24 million users from over 190 countries are here.
+         </p>
+         <h1 style="font-weight: bold; margin-top: 4.3vw; font-size: 3.6vw;">A place to discuss ML</h1>
+         <h5 style="margin-left: 21px; color: #5F6368; margin-top: 3vw; font-size: 2.3vw;">Whether you're a beginner or pro, find answers to your ML questions & connect with ML enthusiasts on Kaggle's forums.</h5>
+       </div>         
+    </div>  <!-- End of div.text-->
+
+    <!-- datasets-carousel -->
+     
+    <div class="carousel" style="border:none; background-color: white;">         
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: grey;"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color: grey;"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: grey;"></button>
+         </div>
+      <div class="carousel-inner" style="vertical-align: top;">
+      <div class="carousel-item active">
+        <a href="">
+      <img src="Images/datasets-landing@1.png" class="d-block w-100 img" alt="..." style="max-width: 100%; height: auto;">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="">
+      <img src="Images/notebooks-landing@1.png" class="d-block w-100 img" alt="..." style="max-width: 100%; height: auto;">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="">
+      <img src="Images/models-landing@1.png" class="d-block w-100 img" alt="..." style="max-width: 100%; height: auto;">
+        </a>
+      </div>
+      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: gray;"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: gray;"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+          </div>
+    </div> <!-- End of div.carousel-->
+    </div> <!-- End of div.datasets-->
+
+    <div class="datasets1">
+
+    </div>     
+
+   <div style="background: linear-gradient(#FBFBFB,#E8F9FF); padding-top: 3vw;">
+    <div class="Kaggler">
+     <div class="info" style="display: inline-block;">
+        <div>
+          <h3 class="info-title" style="font-size: 2.2vw;">
+             Who are Kagglers?
+          </h3>
+          <p class="" style="color: #3C4043; font-size: 1.4vw;">
+             Kagglers come from all walks of life: students, seasoned professionals, and distinguished researchers. They use Kaggle to learn data science & ML, stay up-to-date on the latest techniques, and collaborate.
+          </p>
+        </div>
+     </div>
+     <div class="pict" style="display: inline-block; vertical-align: top;">
+       <img src="Images/community-faces-desktop@2x.png" style="max-width: 100%; height: auto; margin-left: 2vw;">
+     </div>
+   </div>
+   </div>
+
+    <!-- Customer Says Starts -->
+    <div class="customer-says">
+
+      <h1 class="customer-say-title">What  Our Customers Say About Us</h1> 
+      <div class="review">
+        <div class="review1">          
+           <h3>Sarah Chen</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"This platform revolutionized my approach to data science competitions. The intuitive interface and supportive community helped me grow from a beginner to winning my first competition within months. Absolutely outstanding learning experience!"</p>
+        </div>
+        <div class="review2">
+           <h3>Marcus Thompson</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"As a computer science student, I found this platform invaluable. The structured learning paths and real-world datasets make it easy to practice and improve. The mentorship program is particularly helpful for newcomers like me."</p>
+        </div>
+        <div class="review3">
+           <h3>Dr. John Smith</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"I recommend this platform to all my students. The combination of competitive challenges and collaborative learning creates an engaging environment. The quality of datasets and documentation is consistently excellent."</p>
+        </div>
+        <div class="review4">
+           <h3>James Wilson</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"What sets this platform apart is its professional approach to data science competitions. The code review system and detailed performance metrics have helped me refine my machine learning models significantly."</p>
+        </div>
+        <div class="review5">
+           <h3>Emily Rodriguez</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"Finally, a platform that bridges the gap between theoretical knowledge and practical application. The business-focused challenges have directly contributed to my success in corporate projects."</p>
+        </div>
+        <div class="review6">
+           <h3>Priya Patel</h3>
+           <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+           <p>"The diversity of competitions and datasets available here is remarkable. I appreciate how the platform maintains high standards while remaining accessible to practitioners at different skill levels."</p>
+        </div>
+      </div>  <!--End of div class="review"-->
+
+       <!-- View More Button Starts -->
+        <div class="button">
+           <a href="customer.html" class="view-more-button">View More</a>
+        </div>
+        <!-- View More Button Ends -->
+
+    </div>
+    <!-- Customer Says Ends --> 
+
+     </div>    <!-- End of main-div-->
+    <!-- Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

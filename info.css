@@ -1,0 +1,33 @@
+.about-div1
+{
+    background: linear-gradient(white, #E8F9FF); 
+    width: auto;
+}
+.info-div
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.info1
+{
+    display: grid;
+    grid-template-columns: 1fr 9vw;
+    
+}
+.info2
+{
+    display: grid;
+    grid-template-columns: 1fr 9vw;
+    
+}
+.info3
+{
+    display: grid;
+    grid-template-columns: 1fr 9vw;       
+}
+.edit
+{
+    font-size: 2vw;
+    font-weight: bold;
+}

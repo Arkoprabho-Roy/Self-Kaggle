@@ -1,0 +1,26 @@
+.Kaggler
+{
+    /* border-color: #C4D9FF;
+    border-style: solid;
+    border-width: 2px; */
+    border: none;
+    border-radius: 1vw;
+    height: 25vw;
+    width: 90vw;    
+    margin: auto;        
+    background: linear-gradient(#FBFBFB,#E8F9FF);
+}
+.info
+{
+    width: 39vw;   
+    padding-left: 2.1vw; 
+}
+.info-title
+{
+    margin-top: 8vw;
+    margin-bottom: 2.3vw;
+}
+.pict
+{
+    width: 44vw;
+}

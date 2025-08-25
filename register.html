@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            font-family: sans-serif;
+        }
+        .logo
+        {
+            width: 8vw;
+            height: 3vw;   
+            margin-top: 36px;  
+            margin-bottom: 33px;   
+        } 
+        .box
+        {
+            width: 410px;           
+            margin: auto;                 
+            margin-top: 54px;  
+            border-color: rgb(218, 220, 224);
+            border-width: 1px;
+            border-style: solid; 
+            border-radius: 21px;
+        }       
+        .Kaggle-Logo
+        {
+            text-align: center;  
+        } 
+        .welcome
+        {
+            text-align: center;        
+            margin-bottom: 21px;
+        }
+        .buttons
+        {
+            text-align: center;
+        }
+        .register-btn
+        {
+            background-color: white;
+            border: none;                   
+            font-size: 16px;
+            margin-right: 5px;
+            margin-bottom: 9px;            
+        }
+        .Google-btn
+        {
+            margin-top: 36px;
+            margin-bottom: 12px;
+            height: 36px;
+            width: 298px;
+            margin-left: 56px;
+           font-size: 14px;
+           background-color: white;
+            border-color: rgb(189, 193, 198);
+            border-width: 1px;
+            border-style: solid; 
+            border-radius: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .Google-btn:hover
+        {
+            border-color: black;
+            border-width: 1px;
+            border-style: solid; 
+        }
+        .text
+        {
+            font-size: 12px;
+            text-align: center;   
+            margin-bottom: 30px;         
+        }
+        .blobs
+        {
+            width: 85px;
+            vertical-align: top;            
+        }
+        .register-btn
+        {
+            background-color: white;
+            border: none;                   
+            font-size: 16px;
+            margin-right: 5px;
+            margin-bottom: 9px;
+        }
+        .Email-btn
+        {
+            margin-bottom: 27px;
+            height: 36px;
+            width: 298px;
+            margin-left: 56px;
+            font-size: 14px;
+            background-color: white;
+            border-color: rgb(189, 193, 198);
+            border-width: 1px;
+            border-style: solid; 
+            border-radius: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .Email-btn:hover
+        {
+            border-color: black;
+            border-width: 1px;
+            border-style: solid; 
+        }
+        .sign-in-btn
+        {
+            background-color: black;
+            border: none;
+            color: white;
+            font-size: 16px;           
+            border-radius: 21px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>Register | Kaggle</title>
+
+    <script>
+            document.addEventListener('contextmenu', 
+            event => event.preventDefault())            
+            ,document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.shiftKey && event.key === 'L') {
+            event.preventDefault();            
+            }
+            })
+            ,document.addEventListener("keydown", function (event){
+            if (event.ctrlKey){
+            event.preventDefault();            
+           }
+           if(event.keyCode == 123){
+            event.preventDefault();
+           }    
+          })
+    </script> 
+</head>
+<body>
+    <div class="box">
+        <div style="border-color: rgb(218, 220, 224);border-width: 1px;border-style: solid; border-top-left-radius: 21px; border-top-right-radius: 21px;">
+            <div class="Kaggle-Logo">
+            <a href="index.html"><img src="site-logo.svg" class="logo"></a>
+        </div>
+        <div class="welcome">
+             <h1 style="font-size: 28px;">Welcome To Kaggle!</h1>
+        </div>
+        <div class="buttons">
+            <button class="register-btn">Register</button>            
+        </div>  
+        </div>              
+        <div class="buttons1">
+       <div>
+           <button class="Google-btn">Register with Google</button>
+       </div>
+       <div>
+            <button class="Email-btn">Register with Email</button>
+        </div>
+       <div style="width: 50%; display: inline-block;  margin-left: 114.9px;">
+                <div style="display: inline-block; vertical-align: top;">
+            <p class="text">Already have an account?<span style="margin-left: 9px;">Sign In</span></p>
+            </div>
+            <div style="text-align: center;">
+                <a href="Sign-In.html" class="sign-in-btn">Sign In</a>
+            </div>
+            </div>            
+            <div style="width: 85px; display: inline-block; vertical-align: top; border-radius: 21px;">  
+           <img src="Images/login-box-blobs.png" class="blobs">
+            </div>      
+    </div> 
+</body>
+</html>
